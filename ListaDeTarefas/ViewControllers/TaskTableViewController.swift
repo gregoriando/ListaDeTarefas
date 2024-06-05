@@ -39,11 +39,7 @@ class TaskTableViewController: UIViewController {
             taskTableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             taskTableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
         ])
-        
     }
-    
-
-
 }
 
 extension TaskTableViewController: UITableViewDataSource {
@@ -59,8 +55,6 @@ extension TaskTableViewController: UITableViewDataSource {
         
         return UITableViewCell()
     }
-    
-    
 }
 
 extension TaskTableViewController: UITableViewDelegate {
